@@ -9,7 +9,7 @@
 }
 
 .timeline-page-wrapper {
-  width: 1170px;
+  width: 950px;
   margin: auto;
   position: relative;
 }
@@ -40,12 +40,12 @@
 .timeline-page-subtitle {
   color: white;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 19.5px;
   margin: 0;
 }
 
 .timeline-main-img-wrapper {
-  width: 900px;
+  width: 800px;
   position: relative;
   margin: 0px auto 0px auto;
 }
@@ -58,16 +58,16 @@
 
 .timeline-intro {
   position: absolute;
-  top: 80px;
-  width: 45%;
-  font-size: 19px;
+  top: 50px;
+  width: 44%;
+  font-size: 18px;
 }
 
 /* Text wrapper base styles */
 .timeline-text-wrapper {
   position: absolute;
   width: 48%;
-  opacity: 0.15;
+  /* opacity: 0.15; */
   transition-duration: 0.3s;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .timeline-text-wrapper.right {
-  left: 340px;
+  left: 300px;
 }
 
 .timeline-text-title {
@@ -102,11 +102,11 @@
 
 /* Text wrapper positioning */
 .timeline-text-wrapper.forties-text {
-  top: 575px;
+  top: 495px;
 }
 
 .timeline-text-wrapper.fifties-text {
-  top: 828px;
+  top: 720px;
 }
 
 .timeline-text-wrapper.seventies-text {
@@ -287,10 +287,11 @@
 }
 
 .timeline-bottom-text {
-  padding: 30px 40px 0 0;
   width: 60%;
-  margin-left: 40%;
-  font-size: var(--font-size);
+  font-size: 18px;
+  position: absolute;
+  top: 4150px;
+  left: 35%;
 }
 
 .timeline-page-footer {
@@ -298,3 +299,13 @@
   margin-top: -150px;
 }
 /* -----------------*/
+
+@media only screen and (max-width: 1170px) {
+  .timeline-page-wrapper {
+    width: 100%;
+  }
+
+  .timeline-page-subheader {
+    text-align: center;
+  }
+}
