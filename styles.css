@@ -1,5 +1,5 @@
 :root {
-  --font-size: 15px;
+  --font-size: 14.5px;
   --light-blue: rgb(18, 133, 123);
   --dark-blue: rgb(2, 30, 66);
 }
@@ -67,7 +67,7 @@
 .timeline-text-wrapper {
   position: absolute;
   width: 52%;
-  opacity: 0.15;
+  /* opacity: 0.15; */
   transition-duration: 0.3s;
 }
 
@@ -103,19 +103,19 @@
 
 /* Text wrapper positioning */
 .timeline-text-wrapper.forties-text {
-  top: 505px;
+  top: 510px;
 }
 
 .timeline-text-wrapper.fifties-text {
-  top: 740px;
+  top: 745px;
 }
 
 .timeline-text-wrapper.seventies-text {
-  top: 990px;
+  top: 995px;
 }
 
 .timeline-text-wrapper.nine-text {
-  top: 1235px;
+  top: 1240px;
   margin-bottom: 0;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .timeline-text-wrapper.seventeen-text {
-  top: 1515px;
+  top: 1520px;
 }
 
 .timeline-small-text {
@@ -133,19 +133,19 @@
 }
 
 .timeline-text-wrapper.eightteen-text {
-  top: 1905px;
+  top: 1920px;
 }
 
 .timeline-text-wrapper.nineteen-text {
-  top: 2390px;
+  top: 2395px;
 }
 
 .timeline-text-wrapper.twenty-text {
-  top: 2710px;
+  top: 2720px;
 }
 
 .timeline-text-wrapper.twentyone-text {
-  top: 3030px;
+  top: 3040px;
 }
 /* -----------------*/
 
@@ -153,19 +153,20 @@
 .timeline-map-link {
   width: 165px;
   height: 165px;
-  border-radius: 50%;
   position: absolute;
   cursor: pointer;
-  z-index: 1;
+  z-index: 100;
+  left: 89px;
+  width: 76%;
 }
 
-.timeline-map-link.left-link {
+/* .timeline-map-link.left-link {
   left: 100px;
 }
 
 .timeline-map-link.right-link {
   left: 525px;
-}
+} */
 /* -----------------*/
 
 /* Date hover link individual styles */
@@ -186,7 +187,8 @@
 }
 
 .timeline-map-link.seventies {
-  top: 1000px;
+  top: 990px;
+  height: 190px;
 }
 
 .timeline-map-link.seventies:hover + .timeline-text-wrapper.seventies-text {
@@ -194,7 +196,8 @@
 }
 
 .timeline-map-link.nine {
-  top: 1270px;
+  top: 1240px;
+  height: 234px;
 }
 
 .timeline-map-link.nine:hover + .timeline-text-wrapper.nine-text {
@@ -202,7 +205,8 @@
 }
 
 .timeline-map-link.seventeen {
-  top: 1610px;
+  top: 1535px;
+  height: 335px;
 }
 
 .timeline-map-link.seventeen:hover + .timeline-text-wrapper.seventeen-text {
@@ -210,8 +214,9 @@
 }
 
 .timeline-map-link.eightteen {
-  top: 2141px;
+  top: 1921px;
   left: 84px;
+  height: 424px;
 }
 
 .timeline-map-link.eightteen:hover + .timeline-text-wrapper.eightteen-text {
@@ -219,7 +224,8 @@
 }
 
 .timeline-map-link.nineteen {
-  top: 2450px;
+  top: 2405px;
+  height: 261px;
 }
 
 .timeline-map-link.nineteen:hover + .timeline-text-wrapper.nineteen-text {
@@ -227,7 +233,8 @@
 }
 
 .timeline-map-link.twenty {
-  top: 2772px;
+  top: 2718px;
+  height: 278px;
 }
 
 .timeline-map-link.twenty:hover + .timeline-text-wrapper.twenty-text {
@@ -235,7 +242,8 @@
 }
 
 .timeline-map-link.twentyone {
-  top: 3071px;
+  top: 3045px;
+  height: 423px;
 }
 
 .timeline-map-link.twentyone:hover + .timeline-text-wrapper.twentyone-text {
