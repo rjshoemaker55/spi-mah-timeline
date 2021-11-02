@@ -67,7 +67,7 @@
 .timeline-text-wrapper {
   position: absolute;
   width: 52%;
-  /* opacity: 0.15; */
+  opacity: 0.15;
   transition-duration: 0.3s;
 }
 
