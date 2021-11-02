@@ -1,5 +1,5 @@
 :root {
-  --font-size: 16px;
+  --font-size: 15px;
   --light-blue: rgb(18, 133, 123);
   --dark-blue: rgb(2, 30, 66);
 }
@@ -58,7 +58,7 @@
 
 .timeline-intro {
   position: absolute;
-  top: 50px;
+  top: 30px;
   width: 44%;
   font-size: 18px;
 }
@@ -66,13 +66,13 @@
 /* Text wrapper base styles */
 .timeline-text-wrapper {
   position: absolute;
-  width: 48%;
-  /* opacity: 0.15; */
+  width: 52%;
+  opacity: 0.15;
   transition-duration: 0.3s;
 }
 
 .timeline-text-wrapper.left {
-  left: 110px;
+  left: 95px;
 }
 
 .timeline-text-wrapper.right {
@@ -82,7 +82,7 @@
 .timeline-text-title {
   color: var(--light-blue);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 5px;
   margin-bottom: 0;
 }
@@ -96,25 +96,26 @@
 .timeline-dual-month {
   font-weight: bold;
   font-style: italic;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 /* -----------------*/
 
 /* Text wrapper positioning */
 .timeline-text-wrapper.forties-text {
-  top: 495px;
+  top: 505px;
 }
 
 .timeline-text-wrapper.fifties-text {
-  top: 720px;
+  top: 740px;
 }
 
 .timeline-text-wrapper.seventies-text {
-  top: 1105px;
+  top: 990px;
 }
 
 .timeline-text-wrapper.nine-text {
-  top: 1400px;
+  top: 1235px;
   margin-bottom: 0;
 }
 
@@ -124,34 +125,34 @@
 }
 
 .timeline-text-wrapper.seventeen-text {
-  top: 1695px;
+  top: 1515px;
 }
 
 .timeline-small-text {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .timeline-text-wrapper.eightteen-text {
-  top: 2125px;
+  top: 1905px;
 }
 
 .timeline-text-wrapper.nineteen-text {
-  top: 2685px;
+  top: 2390px;
 }
 
 .timeline-text-wrapper.twenty-text {
-  top: 3035px;
+  top: 2710px;
 }
 
 .timeline-text-wrapper.twentyone-text {
-  top: 3400px;
+  top: 3030px;
 }
 /* -----------------*/
 
 /* Date hover link general styles */
 .timeline-map-link {
-  width: 185px;
-  height: 185px;
+  width: 165px;
+  height: 165px;
   border-radius: 50%;
   position: absolute;
   cursor: pointer;
@@ -159,17 +160,17 @@
 }
 
 .timeline-map-link.left-link {
-  left: 110px;
+  left: 100px;
 }
 
 .timeline-map-link.right-link {
-  left: 592px;
+  left: 525px;
 }
 /* -----------------*/
 
 /* Date hover link individual styles */
 .timeline-map-link.forties {
-  top: 545px;
+  top: 485px;
 }
 
 .timeline-map-link.forties:hover + .timeline-text-wrapper.forties-text {
@@ -177,7 +178,7 @@
 }
 
 .timeline-map-link.fifties {
-  top: 835px;
+  top: 745px;
 }
 
 .timeline-map-link.fifties:hover + .timeline-text-wrapper.fifties-text {
@@ -185,7 +186,7 @@
 }
 
 .timeline-map-link.seventies {
-  top: 1125px;
+  top: 1000px;
 }
 
 .timeline-map-link.seventies:hover + .timeline-text-wrapper.seventies-text {
@@ -193,7 +194,7 @@
 }
 
 .timeline-map-link.nine {
-  top: 1430px;
+  top: 1270px;
 }
 
 .timeline-map-link.nine:hover + .timeline-text-wrapper.nine-text {
@@ -201,7 +202,7 @@
 }
 
 .timeline-map-link.seventeen {
-  top: 1815px;
+  top: 1610px;
 }
 
 .timeline-map-link.seventeen:hover + .timeline-text-wrapper.seventeen-text {
@@ -209,8 +210,8 @@
 }
 
 .timeline-map-link.eightteen {
-  top: 2300px;
-  left: 95px;
+  top: 2141px;
+  left: 84px;
 }
 
 .timeline-map-link.eightteen:hover + .timeline-text-wrapper.eightteen-text {
@@ -218,7 +219,7 @@
 }
 
 .timeline-map-link.nineteen {
-  top: 2755px;
+  top: 2450px;
 }
 
 .timeline-map-link.nineteen:hover + .timeline-text-wrapper.nineteen-text {
@@ -226,7 +227,7 @@
 }
 
 .timeline-map-link.twenty {
-  top: 3120px;
+  top: 2772px;
 }
 
 .timeline-map-link.twenty:hover + .timeline-text-wrapper.twenty-text {
@@ -234,7 +235,7 @@
 }
 
 .timeline-map-link.twentyone {
-  top: 3455px;
+  top: 3071px;
 }
 
 .timeline-map-link.twentyone:hover + .timeline-text-wrapper.twentyone-text {
@@ -290,7 +291,7 @@
   width: 60%;
   font-size: 18px;
   position: absolute;
-  top: 4150px;
+  top: 3680px;
   left: 35%;
 }
 
@@ -300,7 +301,7 @@
 }
 /* -----------------*/
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 950px) {
   .timeline-page-wrapper {
     width: 100%;
   }
