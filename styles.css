@@ -369,6 +369,8 @@
   font-size: 40px;
   margin: 0;
   color: white;
+  fill: white;
+  stroke: white;
 }
 
 .timeline-popup-logo {
