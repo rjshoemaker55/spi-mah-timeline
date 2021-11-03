@@ -544,6 +544,10 @@
     font-size: 18px;
   }
 
+  .timeline-logo {
+    height: 40px;
+  }
+
   .timeline-main-img-wrapper {
     width: 450px;
   }
