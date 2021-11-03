@@ -23,6 +23,19 @@
           PRODUCTIVITY
         </h2>
       </div>
+      <p class="timeline-intro-mobile">
+        Our motivation is innovation. From our early years of discovery in
+        poultry medicine to our 21st century pharmaceutical advancements, a rich
+        heritage of scientific excellence has always been the foundation of our
+        future and the inspiration for our daily work.
+
+        <br /><br />MSD Animal Health is dedicated to preserving and improving
+        the health, well-being and performance of animals and the people who
+        care for them. Poultry producers can depend on MSD Animal Health for
+        more than just medicines – our science helps protect international
+        public health, ensures food safety and increases protein supplies.
+      </p>
+      <p class="timeline-instructions">Click on each year to learn more.</p>
       <div class="timeline-main-img-wrapper">
         <img class="timeline-main-img" src="./images/background-img.png" />
 
@@ -39,8 +52,8 @@
           public health, ensures food safety and increases protein supplies.
         </p>
 
-        <a class="timeline-map-link forties right-link"></a>
-        <div class="timeline-text-wrapper forties-text left">
+        <a id="forties-link" class="timeline-map-link right-link"></a>
+        <div id="forties-text" class="timeline-text-wrapper left">
           <h4 class="timeline-text-title">
             Rooted in Discovery from the Start
           </h4>
@@ -55,8 +68,8 @@
           </p>
         </div>
 
-        <a class="timeline-map-link fifties left-link"></a>
-        <div class="timeline-text-wrapper fifties-text right">
+        <a id="fifties-link" class="timeline-map-link left-link"></a>
+        <div id="fifties-text" class="timeline-text-wrapper right">
           <h4 class="timeline-text-title">Creation of First Poultry Vaccine</h4>
           <p class="timeline-text-body">
             Intervet develops TREMVAC® -FP, the first fowl pox vaccine for
@@ -71,8 +84,8 @@
           </p>
         </div>
 
-        <a class="timeline-map-link seventies right-link"></a>
-        <div class="timeline-text-wrapper seventies-text left">
+        <a id="seventies-link" class="timeline-map-link right-link"></a>
+        <div id="seventies-text" class="timeline-text-wrapper left">
           <h4 class="timeline-text-title">
             Development of Enduring Poultry Welfare Solutions
           </h4>
@@ -89,8 +102,8 @@
           </p>
         </div>
 
-        <a class="timeline-map-link nine left-link"></a>
-        <div class="timeline-text-wrapper nine-text right">
+        <a id="nine-link" class="timeline-map-link left-link"></a>
+        <div id="nine-text" class="timeline-text-wrapper right">
           <p class="timeline-text-body nine">
             <span class="timeline-text-title nine"
               >Commitment to Healthy Animals and a Healthy Planet</span
@@ -107,8 +120,8 @@
           </p>
         </div>
 
-        <a class="timeline-map-link seventeen right-link"> </a>
-        <div class="timeline-text-wrapper seventeen-text left dual-column">
+        <a id="seventeen-link" class="timeline-map-link right-link"> </a>
+        <div id="seventeen-text" class="timeline-text-wrapper left dual-column">
           <div class="timeline-text-dual-wrapper">
             <p class="timeline-dual-month">March</p>
             <h4 class="timeline-text-title dual">
@@ -143,8 +156,11 @@
           </div>
         </div>
 
-        <a class="timeline-map-link eightteen left-link"> </a>
-        <div class="timeline-text-wrapper eightteen-text right dual-column">
+        <a id="eightteen-link" class="timeline-map-link left-link"> </a>
+        <div
+          id="eightteen-text"
+          class="timeline-text-wrapper right dual-column"
+        >
           <div class="timeline-text-dual-wrapper">
             <p class="timeline-dual-month">March</p>
             <h4 class="timeline-text-title dual">
@@ -179,8 +195,8 @@
           </div>
         </div>
 
-        <a class="timeline-map-link nineteen right-link"> </a>
-        <div class="timeline-text-wrapper nineteen-text left dual-column">
+        <a id="nineteen-link" class="timeline-map-link right-link"> </a>
+        <div id="nineteen-text" class="timeline-text-wrapper left dual-column">
           <div class="timeline-text-dual-wrapper">
             <p class="timeline-dual-month">February</p>
             <h4 class="timeline-text-title dual">
@@ -204,8 +220,8 @@
           </div>
         </div>
 
-        <a class="timeline-map-link twenty left-link"> </a>
-        <div class="timeline-text-wrapper twenty-text right dual-column">
+        <a id="twenty-link" class="timeline-map-link left-link"> </a>
+        <div id="twenty-text" class="timeline-text-wrapper right dual-column">
           <div class="timeline-text-dual-wrapper">
             <p class="timeline-dual-month">January</p>
             <h4 class="timeline-text-title dual">
@@ -231,8 +247,9 @@
           </div>
         </div>
 
-        <a class="timeline-map-link twentyone right-link"> </a>
-        <div class="timeline-text-wrapper twentyone-text left dual-column">
+        <a id="twentyone-link" class="timeline-map-link twentyone right-link">
+        </a>
+        <div id="twentyone-text" class="timeline-text-wrapper left dual-column">
           <div class="timeline-text-dual-wrapper">
             <p class="timeline-dual-month">January</p>
             <h4 class="timeline-text-title dual">EXZOLT® SPC Update</h4>
@@ -280,6 +297,13 @@
           identification and traceability, click here.
         </div>
       </div>
+      <div class="timeline-bottom-text-mobile">
+        <strong>For more information</strong> about MSD Animal Health’s
+        commitment to poultry welfare worldwide, click here. <br /><br />
+        <strong>To learn more</strong> about MSD Animal Health’s Intelligence
+        unit and how we’re evolving world-class devices for animal
+        identification and traceability, click here.
+      </div>
       <div class="timeline-dark-blue-bar">
         <h3 class="dark-blue-bar-title">
           Innovating for Poultry Health for Over 70 Years
@@ -296,5 +320,12 @@
         </p>
       </div>
     </div>
+    <div id="timeline-popup-wrapper">
+      <p id="timeline-close-btn">✖</p>
+      <h3 id="timeline-popup-year"></h3>
+      <div id="timeline-popup-body"></div>
+      <img class='timeline-popup-logo' src='images/white-msd-logo.png'
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>
