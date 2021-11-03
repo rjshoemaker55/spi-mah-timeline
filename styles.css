@@ -14,6 +14,10 @@
   position: relative;
 }
 
+.timeline-logo {
+  height: 60px;
+}
+
 .timeline-page-header {
   display: flex;
   background-color: var(--light-blue);
@@ -372,15 +376,6 @@
   stroke: white;
 }
 
-.timeline-popup-logo {
-  height: 60px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 40px;
-}
 /* -----------------*/
 
 @media only screen and (max-width: 950px) {
