@@ -32,7 +32,7 @@ const timelineSections = [
     body: `
           <h4 class="timeline-popup-title">Creation of First Poultry Vaccine</h4>
           <p class="timeline-popup-text">
-            Intervet develops TREMVAC® -FP, the first fowl pox vaccine for
+            Intervet develops TREMVAC<sup>®</sup> -FP, the first fowl pox vaccine for
             poultry. Before the vaccine, fowl pox was a lethal threat that was
             highly transmissible and could cause a transient drop in egg
             production and a reduced growth rate in young birds.
@@ -74,13 +74,13 @@ const timelineSections = [
     body: `
           <h4 class="timeline-popup-title">Commitment to Healthy Animals and a Healthy Planet</h4>
           <p class='timeline-popup-text'>
-            Intervet and Schering-Plough Animal Health create SPHEREON®, a novel
+            Intervet and Schering-Plough Animal Health create SPHEREON<sup>®</sup>, a novel
             vaccine formulation technology that freeze-dries vaccines into
             small, highly soluble spheres that dissolve in water and can be
             easily administered to poultry. Because these spheres dissolve
             quickly and completely in water – and containers come in a variety
             of volumes that can fully dose flocks of many sizes – producers
-            don’t need to use protective gear or open multiple individual glass
+            don’t need to use protective gear or open multiple individual glass
             vials, making SPHEREON a convenient andenvironmentally- friendly
             option for poultry farms.
           </p>
@@ -92,7 +92,7 @@ const timelineSections = [
     showing: false,
     year: '2017',
     body: `
-            <p class="timeline-popup-month">Margin</p>
+            <p class="timeline-popup-month">March</p>
             <h4 class="timeline-popup-title">
               A Focus on Firsts: High–Quality Poultry Science Award
             </h4>
@@ -104,13 +104,13 @@ const timelineSections = [
             </p>
             <p class="timeline-popup-month">September</p>
             <h4 class="timeline-popup-title dual">
-              A Focus on Firsts: INNOVAX®-ND-IBD and EXZOLT® Launches
+              A Focus on Firsts: INNOVAX<sup>®</sup>-ND-IBD and EXZOLT<sup>®</sup> Launches
             </h4>
             <p class="timeline-popup-text">
-              MSD Animal Health launches INNOVAX®-ND-IBD, the first ever
+              MSD Animal Health launches INNOVAX<sup>®</sup>-ND-IBD, the first ever
               biotech-based vaccine that provides life-long protection against
               three incredibly infectious poultry diseases (infectious bursal
-              disease, Newcastle disease and Marek’s disease), and EXZOLT®
+              disease, Newcastle disease and Marek’s disease), and EXZOLT<sup>®</sup>
               (fluralaner), the first systemic treatment for poultry red mite
               infestations.
             </p>
@@ -130,11 +130,11 @@ const timelineSections = [
     body: `
           <p class="timeline-popup-month">March</p>
             <h4 class="timeline-popup-title">
-              Expanded Indication for PANACUR® AquaSol
+              Expanded Indication for PANACUR<sup>®</sup> AquaSol
             </h4>
             <p class="timeline-popup-text">
               MSD Animal Health receives marketing authorization from the
-              European Commission for the expanded indication of PANACUR®
+              European Commission for the expanded indication of PANACUR<sup>®</sup>
               AquaSol to combat three gastrointestinal parasites in chickens.
               PANACUR AquaSol was originally approved in 2013 for the same
               indication in pigs to treat three similar types of parasites.
@@ -149,10 +149,10 @@ const timelineSections = [
             </p>
             <p class="timeline-popup-month">October</p>
             <h4 class="timeline-popup-title">
-              EXZOLT® Wins Breakthrough of the Year
+              EXZOLT<sup>®</sup> Wins Breakthrough of the Year
             </h4>
             <p class="timeline-popup-text">
-              MSD Animal Health receives recognition for EXZOLT® as the
+              MSD Animal Health receives recognition for EXZOLT<sup>®</sup> as the
               breakthrough of the year at the 2018 British Free-Range Egg
               Producers Association Conference.
             </p>
@@ -171,7 +171,7 @@ const timelineSections = [
             <p class="timeline-popup-text">
               MSD Animal Health collaborates with Rapid Genomics for exclusive
               rights to the company’s vaccination verification tool, Viral
-              Flex-Seq®, to use in combination with Innovax® vaccines, to
+              Flex-Seq<sup>®</sup>, to use in combination with Innovax<sup>®</sup> vaccines, to
               optimize and enhance disease outbreak management in poultry.
             </p>
             <p class="timeline-popup-month">April</p>
@@ -179,7 +179,7 @@ const timelineSections = [
             <p class="timeline-popup-text">
               MSD Animal Health acquires Antelliq Corporation and becomes the
               global leader in animal health digital tracking, traceability and
-              monitoring technology for livestock and companion animals
+              monitoring technology for livestock and companion animals.
             </p>
            `
   },
@@ -217,9 +217,9 @@ const timelineSections = [
     year: '2021',
     body: `
             <p class="timeline-popup-month">January</p>
-            <h4 class="timeline-popup-title">EXZOLT® SPC Update</h4>
+            <h4 class="timeline-popup-title">EXZOLT<sup>®</sup> SPC Update</h4>
             <p class="timeline-popup-text">
-              EXZOLT® becomes the first veterinary product centrally registered
+              EXZOLT<sup>®</sup> becomes the first veterinary product centrally registered
               in the EU to include animal welfare improvement in its Summary of
               Product Characteristics following a positive opinion from the EMA
               CVMP.
@@ -239,7 +239,7 @@ const timelineSections = [
             </h4>
             <p class="timeline-popup-text">
               MSD Animal Health is officially presented with the 2020 Best New
-              Food Animal Product Award for NOBILIS® SALENVAC® ETC for poultry,
+              Food Animal Product Award for NOBILIS<sup>®</sup> SALENVAC<sup>®</sup> ETC for poultry,
               an inactivated, intramuscular, two-dose trivalent Salmonella
               vaccine.
             </p>
