@@ -32,7 +32,7 @@ const timelineSections = [
     body: `
           <h4 class="timeline-popup-title">Creation of First Poultry Vaccine</h4>
           <p class="timeline-popup-text">
-            Intervet develops TREMVAC<sup>®</sup> -FP, the first fowl pox vaccine for
+            Intervet develops TREMVAC<sup>®</sup>-FP, the first fowl pox vaccine for
             poultry. Before the vaccine, fowl pox was a lethal threat that was
             highly transmissible and could cause a transient drop in egg
             production and a reduced growth rate in young birds.
@@ -81,7 +81,7 @@ const timelineSections = [
             quickly and completely in water – and containers come in a variety
             of volumes that can fully dose flocks of many sizes – producers
             don’t need to use protective gear or open multiple individual glass
-            vials, making SPHEREON a convenient andenvironmentally- friendly
+            vials, making SPHEREON a convenient and environmentally-friendly
             option for poultry farms.
           </p>
           `
