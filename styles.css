@@ -1,11 +1,22 @@
+@font-face {
+  font-family: Invention;
+  src: url('./fonts/Invention_Rg.ttf');
+}
+
+@font-face {
+  font-family: Invention;
+  src: url('./fonts/Invention_Bd.ttf');
+  font-weight: bold;
+}
+
 :root {
-  --font-size: 14.5px;
+  --font-size: 13.5px;
   --light-blue: rgb(18, 133, 123);
   --dark-blue: rgb(2, 30, 66);
 }
 
 * {
-  font-family: sans-serif;
+  font-family: Invention, sans-serif;
   box-sizing: border-box;
 }
 
@@ -85,6 +96,12 @@
   right: -320px;
 }
 
+.timeline-bottom-chicken {
+  position: absolute;
+  bottom: 15px;
+  left: 255px;
+}
+
 .timeline-bottom-img {
   left: 100px;
   bottom: 80px;
@@ -125,7 +142,7 @@
   position: absolute;
   top: 30px;
   width: 44%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .timeline-intro-mobile {
@@ -176,19 +193,19 @@
 
 /* Text wrapper positioning */
 #forties-text {
-  top: 510px;
+  top: 502px;
 }
 
 #fifties-text {
-  top: 745px;
+  top: 733px;
 }
 
 #seventies-text {
-  top: 995px;
+  top: 1007px;
 }
 
 #nine-text {
-  top: 1240px;
+  top: 1243px;
   margin-bottom: 0;
 }
 
@@ -198,7 +215,7 @@
 }
 
 #seventeen-text {
-  top: 1520px;
+  top: 1511px;
 }
 
 .timeline-small-text {
@@ -206,19 +223,19 @@
 }
 
 #eightteen-text {
-  top: 1920px;
+  top: 1905px;
 }
 
 #nineteen-text {
-  top: 2395px;
+  top: 2389px;
 }
 
 #twenty-text {
-  top: 2720px;
+  top: 2715px;
 }
 
 #twentyone-text {
-  top: 3040px;
+  top: 3028px;
 }
 /* -----------------*/
 
@@ -491,6 +508,7 @@
     right: -240px;
     height: 200px;
   }
+
   .timeline-intro {
     display: none;
   }
@@ -503,8 +521,26 @@
     left: -140px;
   }
 
+  .timeline-bottom-chicken {
+    width: 750px;
+    left: 196px;
+    bottom: 8px;
+  }
+
+  .dual-column {
+    gap: 7px;
+  }
+
+  .timeline-dual-month {
+    margin-bottom: 5px;
+  }
+
+  .timeline-text-body {
+    margin-top: 0;
+  }
+
   .timeline-text-title {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .timeline-dual-month {
@@ -516,7 +552,7 @@
   }
 
   .timeline-text-body {
-    font-size: 11.5px;
+    font-size: 10.5px;
   }
 
   .timeline-text-wrapper.left {
@@ -528,19 +564,19 @@
   }
 
   #forties-text {
-    top: 373px;
+    top: 382px;
   }
 
   #fifties-text {
-    top: 547px;
+    top: 552px;
   }
 
   #seventies-text {
-    top: 734px;
+    top: 742px;
   }
 
   #nine-text {
-    top: 922px;
+    top: 928px;
   }
 
   #seventeen-text {
@@ -552,15 +588,15 @@
   }
 
   #nineteen-text {
-    top: 1789px;
+    top: 1780px;
   }
 
   #twenty-text {
-    top: 2025px;
+    top: 2031px;
   }
 
   #twentyone-text {
-    top: 2267px;
+    top: 2263px;
   }
 
   .timeline-map-link {
@@ -658,6 +694,11 @@
   .timeline-bottom-img {
     width: 100%;
     height: auto;
+  }
+
+  .timeline-bottom-chicken {
+    width: 562px;
+    left: 145px;
   }
 
   .timeline-twitter-link {
@@ -761,6 +802,12 @@
     width: 400px;
   }
 
+  .timeline-bottom-chicken {
+    bottom: 21px;
+    left: 134px;
+    width: 400px;
+  }
+
   .timeline-map-link {
     height: 82px;
     width: 82px;
@@ -833,6 +880,11 @@
     top: 70px;
   }
 
+  .timeline-bottom-chicken {
+    bottom: 12px;
+    left: 117px;
+  }
+
   .timeline-map-link {
     height: 62px;
     width: 62px;
@@ -901,6 +953,11 @@
 
   .timeline-top-img {
     right: -120px;
+  }
+
+  .timeline-bottom-chicken {
+    bottom: 5px;
+    left: 100px;
   }
 
   .timeline-map-link {
